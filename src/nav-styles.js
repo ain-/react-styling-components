@@ -15,11 +15,13 @@ const btn = {
 };
 
 const prev = {
-  ...btn
+  ...btn,
+  textAlign: 'left'
 };
 
 const next = {
-  ...btn
+  ...btn,
+  textAlign: 'right'
 };
 
 export default {
